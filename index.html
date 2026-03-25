@@ -15,7 +15,7 @@
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li class="dropdown">
-          <a href="#projects">Projects</a>
+          <a href="index.html#projects">Projects</a>
           <ul class="dropdown-menu">
             <li><a href="uiux.html">UI/UX & Interactive Design</a></li>
             <li><a href="gamedev.html">Game/VR/AR</a></li>
@@ -31,134 +31,308 @@
   </header>
   
   <nav id="side-nav">
-    <ul>
-      <li><a href="#about" class="nav-link" data-title="About Me">About Me</a></li>
-      <li><a href="#projects" class="nav-link" data-title="Projects">Projects</a></li>
-      <li><a href="#experience" class="nav-link" data-title="Experience">Experience</a></li>
-      <li><a href="#achievements" class="nav-link" data-title="Achievements">Achievements</a></li>
-      <li><a href="#contact" class="nav-link" data-title="Contact">Contact</a></li>
-    </ul>
-  </nav>
+  <ul>
+    <li><a href="#about" class="nav-link" data-title="About Me">About Me</a></li>
+    <li><a href="#projects" class="nav-link" data-title="Projects">Projects</a></li>
+    <li><a href="#experience" class="nav-link" data-title="Experience">Experience</a></li>
+    <li><a href="#achievements" class="nav-link" data-title="Achievements">Achievements</a></li>
+    <li><a href="#contact" class="nav-link" data-title="Contact">Contact</a></li>
+  </ul>
+</nav>
 
   <main>
-    <section id="hero" class="hero section">
+    <section id="hero" class="hero" class="nav-link active">
       <div class="hero-container">
         <div class="hero-card">
-          <div class="about-avatar">
+          <div class="profile-circle">
+            <div class="about-avatar">
             <img src="assets/images/image2.jpg" alt="Lee Wen Tyng - UI/UX Designer">
+          </div>
           </div>
           <h2>Lee Wen Tyng</h2>
           <div class="divider"></div>
-          <p>Interactive Media Designer<br>( UI/UX, Game, VR/AR )</p>
+          <p>Interactive Media Designer</p>
+          <p>( UI/UX, Game, VR/AR )</p>
         </div>
         <div class="hero-text">
           <h1>Bridging Technology and Storytelling through Immersive Design.</h1>
-          <p>I am a Multimedia Designer & Developer specializing in creating meaningful experiences from intuitive mobile interfaces to immersive 3D worlds.</p>
+          <p>I am a Multimedia Designer & Developer specializing in creating meaningful experiences from intuitive mobile interfaces to immersive 3D worlds.</strong></p>
           <div class="button-container">
-            <button class="btn btn-outline">Resume</button>
-            <a href="#projects" class="btn btn-primary">Projects <i class="fas fa-arrow-right"></i></a>
+            <button class="resume-btn">Resume</button>
+            <a href="#projects" class="projects-btn">
+              Projects   <i class="fas fa-arrow-right"></i>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section">
+    <!--- About Me Section-->
+    <section id="about" class="section fade-in-section" class="nav-link">
       <div class="about-container">
         <h2 class="section-title">About Me</h2>
         <div class="title-divider"></div>
         <div class="about-content">
           <p>"Hi, I'm Lee Wen Tyng. I don't just design interfaces; I build worlds."</p>
-          <p>With a multidisciplinary background in UI/UX Research, Game Development, and Cinematic Storytelling, I thrive at the intersection of logic and creativity.</p>
+              <p>With a multidisciplinary background in UI/UX Research, Game Development, and Cinematic Storytelling, I thrive at the intersection of logic and creativity. 
+              My experience in Unity-based interactions and game design has given me a unique edge in understanding complex user flows, real-time feedback loops, and high-engagement mechanics.</p>
+          <p>I excel at translating technical complexity into intuitive, accessible digital experiences. 
+            As a self-driven learner with hands-on experience in full-cycle project management, I am eager to contribute to a collaborative team and build impactful products that bridge the gap between utility and emotion.</p>
           <p>Currently seeking a Junior UI/UX Designer role where I can contribute, learn, and build impactful digital products.</p>
         </div>
       </div>
     </section>
 
-    <section id="projects" class="section">
+    <!--- Projects Section-->
+    <section id="projects" class="section" class="nav-link">
       <div class="projects-container">
         <h2 class="section-title">Projects</h2>
         <div class="title-divider"></div>
-        
         <div class="project-card">
           <div class="project-text">
             <h3>UI/UX & Interactive Design</h3>
             <div class="skill-tags">
-              <span>Figma</span><span>User Research</span><span>Prototyping</span>
+              <span>Figma</span>
+              <span>User Research</span>
+              <span>Prototyping</span>
+              <span>Interaction Logic</span>
             </div>
-            <p>Crafting user-centric interfaces through data-driven research and intuitive human-computer interaction.</p>
-            <a href="uiux.html" class="btn-text">View Case Study <i class="fas fa-arrow-right"></i></a>
+            <p>Crafting user-centric interfaces through data-driven research and intuitive human-computer interaction. </p>
+            <a href="uiux.html" class="project-btn">View Case Study     <i class="fas fa-arrow-right"></i></a>
           </div>
           <div class="project-image">
-            <img src="assets/images/image1.jpeg" alt="Project">
+            <img src="assets/images/image1.jpeg" alt="project image">
+          </div>
+        </div>
+        
+        <div class="project-card reverse">
+          <div class="project-text">
+            <h3>Game Development, VR, AR</h3>
+            <div class="skill-tags">
+              <span>Unity 3D</span>
+              <span>Unreal Engine</span>
+              <span>C# & C++</span>
+              <span>VR/AR</span>
+              <span>Level Design</span>
+              <span>Cinemachine</span>
+            </div>
+            <p>Developing immersive 3D worlds and interactive mechanics with a focus on real-time spatial experiences.</p>
+            <a href="uiux.html" class="project-btn">Explore World     <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="project-image">
+            <img src="assets/images/image1.jpeg" alt="project image">
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-text">
+            <h3>3D Modeling & Animation</h3>
+            <div class="skill-tags">
+              <span>Autodesk Maya</span>
+              <span>Character Modeling</span>
+              <span>2D/3D Animation</span>
+              <span>Texturing</span>
+            </div>
+  
+            <p>Bringing concepts to life through technical rigging, atmospheric environments, and expressive motion design.</p>
+            <a href="uiux.html" class="project-btn">View Showreels     <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="project-image">
+            <img src="assets/images/image1.jpeg" alt="project image">
           </div>
         </div>
 
         <div class="project-card reverse">
           <div class="project-text">
-            <h3>Game Development, VR, AR</h3>
+            <h3>Multimedia Production</h3>
             <div class="skill-tags">
-              <span>Unity 3D</span><span>C# & C++</span><span>Level Design</span>
+              <span>Video Editing</span>
+              <span>Storyboarding</span>
+              <span>Cinematography</span> 
+              <span>Direction</span>
             </div>
-            <p>Developing immersive 3D worlds and interactive mechanics with a focus on real-time spatial experiences.</p>
-            <a href="uiux.html" class="btn-text">Explore World <i class="fas fa-arrow-right"></i></a>
+            <p>Communicating powerful stories through cinematic production and end-to-end creative workflow management.</p>
+            <a href="gamedev.html" class="project-btn">Watch Film     <i class="fas fa-arrow-right"></i></a>
           </div>
           <div class="project-image">
-            <img src="assets/images/image1.jpeg" alt="Project">
+            <img src="assets/images/image1.jpeg" alt="project image">
           </div>
         </div>
+
       </div>
     </section>
 
-    <section id="experience" class="section">
+    <!--Experience section-->
+    <section id="experience" class="section fade-in-section" class="nav-link">
       <h2 class="section-title">Experience</h2>
-      <div class="title-divider"></div>
+        <div class="title-divider"></div>
 
-      <div class="exp-card">
-        <div class="exp-side-title">Work Experience</div>
-        <div class="exp-main-content">
-          <div class="exp-item">
-            <div class="exp-header">
-              <h3 class="job-title">Game Programmer Intern</h3>
-              <span class="exp-date">Sep 2025 – Jan 2026</span>
-            </div>
-            <p class="company-info">Xhinobi Studio • Kuala Lumpur</p>
-            <ul class="exp-list">
-              <li>Engineered core gameplay features and complex UI components using Unity C#.</li>
-              <li>Conducted performance optimization for live exhibition events.</li>
-            </ul>
+        <div class="exp-card">
+    <div class="exp-side-title">Work Experience</div>
+    <div class="exp-main-content">
+      <div class="exp-item">
+        <div class="exp-header">
+          <h3 class="job-title">Game Programmer Intern</h3>
+          <span class="exp-date">Sep 2025 – Jan 2026</span>
+        </div>
+        <p class="company-info">Xhinobi Studio • Kuala Lumpur</p>
+        <ul class="exp-list">
+          <li>Developed and refined interactive software applications tailored for high-traffic public exhibitions,
+             successfully translating creative concepts into stable, production-ready interactive products.</li>
+          <li>Engineered core gameplay features and complex UI components using Unity C#, 
+            ensuring a seamless and intuitive user experience across various exhibition installations.</li>
+            <li>Conducted comprehensive debugging and performance optimization 
+              to ensure 100% operational stability and smooth performance during high-stakes live exhibition events.</li>
+            <li>Collaborated with design and art teams to streamline the asset integration pipeline, 
+              improving overall development efficiency and visual fidelity.</li>
+        </ul>
+        <div class="exp-tags">
+          <span>Unity C#</span><span>Optimization</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="exp-card">
+  <div class="exp-side-title">Clubs & Societies</div>
+  <div class="exp-main-content">
+    
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3 class="job-title">President & Founder</h3>
+        <span class="exp-date">Sept 2023 – Sept 2024</span>
+      </div>
+      <p class="company-info">Yoga Club, Xiamen University Malaysia</p>
+      
+      <div style="margin-top: 15px;">
+        <p class="company-info" style="font-size: 14px; color: #666;">Yoga Club President (Sept 2023 - Sept 2024)</p>
+        <ul class="exp-list">
+          <li>Facilitated real-time updates as the primary liaison between players and event organizers.</li>
+          <li>Managed accurate data entry and match result recording to ensure competition integrity.</li>
+        </ul>
+      </div>
+
+      <div style="margin-top: 15px;">
+        <p class="company-info" style="font-size: 14px; color: #666;">Yoga Workshop Organising Chairperson (April 2024)</p>
+        <ul class="exp-list">
+          <li>Orchestrated a yoga workshop for 40+ participants, managing end-to-end workflow including venue logistics and guest collaboration.</li>        </ul>
+      </div>
+    </div>
+
+        <div class="divider"></div>
+
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3 class="job-title">Admin & Ceremony Department Member</h3>
+        <span class="exp-date">2022 – 2023</span>
+      </div>
+      <p class="company-info">X-nergy Sport Carnival</p>
+      
+      <div style="margin-top: 15px;">
+        <p class="company-info" style="font-size: 14px; color: #666;">Admin Department (June 2023 - July 2023)</p>
+        <ul class="exp-list">
+          <li>Facilitated real-time updates as the primary liaison between players and event organizers.</li>
+          <li>Managed accurate data entry and match result recording to ensure competition integrity.</li>
+        </ul>
+      </div>
+
+      <div style="margin-top: 15px;">
+        <p class="company-info" style="font-size: 14px; color: #666;">Ceremony Department (Dec 2022 - Jan 2023)</p>
+        <ul class="exp-list">
+          <li>Managed ceremony schedules, rehearsal planning, and the smooth execution of award presentations.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <div class="exp-card">
+    <div class="exp-side-title">Competition</div>
+    <div class="exp-main-content">
+      <div class="exp-item">
+        <div class="exp-header">
+          <h3 class="job-title">Art Team Participant</h3>
+          <span class="exp-date">2025</span>
+        </div>
+        <p class="company-info">Game Jam 2025</p>
+        <ul class="exp-list">
+          <li>Collaborated to design and prototype a playable game within a 48-hour deadline.</li>
+          <li>Focused on rapid problem-solving and mechanic balancing to deliver a polished user experience under high-pressure conditions.</li>
+        </ul>
+        <div class="exp-tags">
+          <span>Rapid Prototyping</span><span>Teamwork</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      </section>
+
+    <!--- Achievements Section-->
+    <section id="achievements" class="section fade-in-section" class="nav-link">
+      <h2 class="section-title">Achievements</h2>
+        <div class="title-divider"></div>
+        
+        <div class="achievement-card">
+          <div class="achievement-image">
+            <img src="assets/images/fyp-award.jpg" alt="FYP Award Recognition">
+          </div>
+          <div class="achievement-text">
+            <h3>Best Final Year Project (1st Place) Award</h3>
+            <p>Having worked on Unity-based interaction projects and web interfaces, I approach UX with both creative sensitivity and technical awareness. 
+              My experience in game development has strengthened my understanding of user flow, real-time feedback, and engagement design. 
+              I enjoy translating complex interactions into intuitive and accessible digital experiences. 
+              With strong self-learning ability and hands-on project experience, I am eager to grow within a collaborative UX team.</p>
           </div>
         </div>
-      </div>
+
+        <div class="achievement-card reverse">
+          <div class="achievement-image">
+            <img src="assets/images/award2.jpeg" alt="Achievement 2">
+          </div>
+          <div class="achievement-text">
+            <h3>Another Award</h3>
+            <p>这是第二个成就的详细描述。</p>
+          </div>
+        </div>
+
     </section>
 
-    <section id="achievements" class="section">
-      <h2 class="section-title">Achievements</h2>
-      <div class="title-divider"></div>
-      <div class="achievement-card">
-        <div class="achievement-image">
-          <img src="assets/images/fyp-award.jpg" alt="FYP Award">
-        </div>
-        <div class="achievement-text">
-          <h3>Best Final Year Project (1st Place) Award</h3>
-          <p>Approach UX with creative sensitivity and technical awareness based on Unity projects.</p>
-        </div>
-      </div>
-    </section>
+  
 
-    <section id="contact" class="section contact-section">
+    <section id="contact" class="section contact-section" class="nav-link">
       <h2 class="contact-title">Contact Me</h2>
       <div class="title-divider-yellow"></div>
+      <p class="contact-desc">Feel free to reach me out !</p>
+
       <div class="contact-info">
-        <div class="info-item"><span>wentyng65@gmail.com</span></div>
-        <div class="info-item"><span>Melaka, Malaysia</span></div>
+        <div class="info-item">
+          <div class="icon-box"></div> <span>wentyng65@gmail.com</span>
+        </div>
+
+        <div class="info-item">
+          <div class="icon-box"></div> <span>Melaka, Malaysia</span>
+        </div>
+
       </div>
-    </section>
+
+      <div class="social-links">
+        <div class="social-icon"></div>
+        <div class="social-icon"></div>
+        <div class="social-icon"></div>
+      </div>
+</section>
+
   </main>
 
   <footer class="footer">
     <p>© 2026 Lee Wen Tyng</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
+  <script src="scrollspy.js"></script>
+
 </body>
 </html>
