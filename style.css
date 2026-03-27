@@ -755,6 +755,37 @@ html {
   .detail-content-card { grid-template-columns: 1fr; }
 }
 
+/* 视频容器 */
+.vid-box {
+    width: 100%;
+    max-width: 900px; /* 限制最大宽度，防止在大屏幕上过度拉伸 */
+    margin: 40px 0;   /* 上下留白，增加呼吸感 */
+    aspect-ratio: 16 / 9; /* 强制锁定 16:9 比例，彻底消灭黑边 */
+    background: #000;
+    border-radius: 12px; /* 稍微圆润一点更显高级 */
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2); /* 增加柔和的深色阴影 */
+}
+
+/* 内部 iframe 填充 */
+.vid-box iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+/* 视频标题文案 */
+.vid-caption {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: -20px; /* 拉近与视频的距离 */
+    margin-bottom: 40px;
+    font-style: italic;
+    border-left: 2px solid #ff5f40; /* 左边加一条你的主题色细线 */
+    padding-left: 15px;
+}
+
 .gallery-grid {
   display: grid;
   /* 关键：自动适应宽度，每张图最小 250px，最大自动填充 */
@@ -986,38 +1017,7 @@ section {
   color: #1a1a1a;
 }
 
-.video-wrapper {
-    width: 100%;
-    max-width: 850px; /* 建议限制一个最大宽度，视觉上更高级 */
-}
 
-/* 确保视频在手机和电脑上都能完美适配比例 */
-.video-container {
-    position: relative;
-    width: 100%;
-    /* 16:9 比例的魔术数字。如果你的视频是这个比例，必须删掉原本的 height: 350px 或类似代码 */
-    padding-bottom: 56.25%; 
-    height: 0; 
-    overflow: hidden;
-    background: #000;
-    border-radius: 12px;
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
-.video-caption {
-    margin-top: 15px;
-    font-size: 0.85rem;
-    color: #888;
-    text-align: left; /* 左对齐更有杂志感 */
-}
 
 /* 数据仪表盘样式 */
 .success-metrics {
@@ -1093,10 +1093,6 @@ section {
 .project-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 50px; align-items: center; }
 .project-section.reverse .project-grid { grid-template-columns: 1fr 1.2fr; }
 
-.video-container iframe {
-  width: 100%; height: 350px; border-radius: 12px;
-  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-}
 
 .project-name { font-size: 2.2rem; color: #fff; margin-bottom: 10px; }
 .tagline { color: #00f2ff; font-weight: bold; margin-bottom: 20px; }
