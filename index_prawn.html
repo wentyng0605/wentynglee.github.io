@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Lee Wen Tyng - Interactive Media Designer</title>
+ <meta name="description" content="Lee Wen Tyng — Interactive Media Designer specializing in UI/UX, Game Development, and VR/AR. Crafting meaningful digital experiences.">
+ <meta property="og:title" content="Lee Wen Tyng - Portfolio">
+ <meta property="og:description" content="Interactive Media Designer specializing in UI/UX, Game Development, and VR/AR.">
+ <meta property="og:image" content="assets/images/image2.jpg">
+ <meta property="og:url" content="https://wentyng0605.github.io/wentynglee_portfolio/">
+ <meta property="og:type" content="website">
+ <meta name="theme-color" content="#0a0a0a">
+ <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <!-- Navigation -->
+ <header id="header">
+ <nav class="navbar">
+ <a href="#hero" class="logo">WT<span class="dot">.</span></a>
+ <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+ <span></span><span></span><span></span>
+ </button>
+ <ul class="nav-links">
+ <li><a href="#about">About</a></li>
+ <li class="dropdown">
+ <a href="#projects">Projects <i class="fas fa-chevron-down"></i></a>
+ <ul class="dropdown-menu">
+ <li><a href="fyp.html">Final Year Project</a></li>
+ <li><a href="uiux.html">UI/UX Design</a></li>
+ <li><a href="gamedev.html">Game Development</a></li>
+ <li><a href="vrar.html">VR/AR</a></li>
+ <li><a href="anim.html">2D & 3D Animation</a></li>
+ <li><a href="env-design.html">Multimedia Production</a></li>
+ </ul>
+ </li>
+ <li><a href="#experience">Experience</a></li>
+ <li><a href="#contact">Contact</a></li>
+ </ul>
+ </nav>
+ </header>
+
+ <main>
+
+ <!-- Hero -->
+ <section id="hero" class="hero">
+ <div class="hero-container">
+ <div class="hero-card">
+ <div class="profile-circle">
+ <img src="assets/images/image2.jpg" alt="Lee Wen Tyng" loading="eager">
+ </div>
+ <div class="hero-info">
+ <h2>Lee Wen Tyng</h2>
+ <p class="hero-tagline">Interactive Media Designer</p>
+ <div class="hero-specialties">
+ <span>UI/UX</span>
+ <span class="sep">·</span>
+ <span>Game Dev</span>
+ <span class="sep">·</span>
+ <span>VR/AR</span>
+ </div>
+ </div>
+ </div>
+ <div class="hero-text">
+ <h1>Bridging Technology<br>and <em>Storytelling</em>.</h1>
+ <p>Multimedia Designer & Developer crafting meaningful experiences — from intuitive interfaces to immersive 3D worlds.</p>
+ <div class="button-group">
+ <a href="assets/resume.pdf" class="btn btn-outline" target="_blank">
+ <i class="fas fa-file-arrow-down"></i> Resume
+ </a>
+ <a href="#projects" class="btn btn-primary">
+ View Projects <i class="fas fa-arrow-right"></i>
+ </a>
+ </div>
+ </div>
+ </div>
+ <div class="scroll-indicator">
+ <div class="mouse">
+ <div class="wheel"></div>
+ </div>
+ <p>Scroll to explore</p>
+ </div>
+ </section>
+
+ <!-- About -->
+ <section id="about" class="section reveal">
+ <div class="section-container">
+ <p class="section-label">About Me</p>
+ <h2 class="section-heading">I don't just design interfaces —<br>I build <em>worlds</em>.</h2>
+ <div class="about-content">
+ <p>With a multidisciplinary background in UI/UX Research, Game Development, and Cinematic Storytelling, I thrive at the intersection of logic and creativity.</p>
+ <p>My experience in Unity-based interactions has given me a unique edge in understanding user flows, real-time feedback loops, and high-engagement mechanics — skills that translate directly into crafting intuitive, accessible digital products.</p>
+ <p>Currently seeking a <strong>Junior UI/UX Designer</strong> role where I can contribute, learn, and build impactful digital experiences.</p>
+ </div>
+ <div class="about-stats">
+ <div class="stat">
+ <span class="stat-number">5+</span>
+ <span class="stat-label">Projects</span>
+ </div>
+ <div class="stat">
+ <span class="stat-number">2</span>
+ <span class="stat-label">Awards</span>
+ </div>
+ <div class="stat">
+ <span class="stat-number">3+</span>
+ <span class="stat-label">Disciplines</span>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- Projects -->
+ <section id="projects" class="section section-dark reveal">
+ <div class="section-container">
+ <p class="section-label">Selected Work</p>
+ <h2 class="section-heading">Projects</h2>
+ <div class="projects-grid">
+
+ <a href="uiux.html" class="project-card">
+ <div class="project-thumb">
+ <img src="assets/images/image1.jpeg" alt="UI/UX Design Projects" loading="lazy">
+ <div class="project-overlay">
+ <span>View Case Study <i class="fas fa-arrow-right"></i></span>
+ </div>
+ </div>
+ <div class="project-meta">
+ <h3>UI/UX & Interactive Design</h3>
+ <p>User-centric interfaces through research and intuitive interaction design.</p>
+ <div class="skill-tags">
+ <span>Figma</span><span>User Research</span><span>Prototyping</span>
+ </div>
+ </div>
+ </a>
+
+ <a href="gamedev.html" class="project-card">
+ <div class="project-thumb">
+ <img src="assets/images/image1.jpeg" alt="Game Development Projects" loading="lazy">
+ <div class="project-overlay">
+ <span>Explore World <i class="fas fa-arrow-right"></i></span>
+ </div>
+ </div>
+ <div class="project-meta">
+ <h3>Game Development, VR & AR</h3>
+ <p>Immersive 3D worlds with a focus on real-time spatial experiences.</p>
+ <div class="skill-tags">
+ <span>Unity 3D</span><span>Unreal</span><span>C# / C++</span><span>VR/AR</span>
+ </div>
+ </div>
+ </a>
+
+ <a href="anim.html" class="project-card">
+ <div class="project-thumb">
+ <img src="assets/images/image1.jpeg" alt="3D Modeling and Animation Projects" loading="lazy">
+ <div class="project-overlay">
+ <span>View Showreels <i class="fas fa-arrow-right"></i></span>
+ </div>
+ </div>
+ <div class="project-meta">
+ <h3>3D Modeling & Animation</h3>
+ <p>Bringing concepts to life through rigging, environments, and motion design.</p>
+ <div class="skill-tags">
+ <span>Maya</span><span>Character Modeling</span><span>Texturing</span>
+ </div>
+ </div>
+ </a>
+
+ <a href="env-design.html" class="project-card">
+ <div class="project-thumb">
+ <img src="assets/images/image1.jpeg" alt="Multimedia Production Projects" loading="lazy">
+ <div class="project-overlay">
+ <span>Watch Film <i class="fas fa-arrow-right"></i></span>
+ </div>
+ </div>
+ <div class="project-meta">
+ <h3>Multimedia Production</h3>
+ <p>Powerful stories through cinematic production and creative workflows.</p>
+ <div class="skill-tags">
+ <span>Video Editing</span><span>Storyboarding</span><span>Cinematography</span>
+ </div>
+ </div>
+ </a>
+
+ </div>
+ </div>
+ </section>
+
+ <!-- Experience -->
+ <section id="experience" class="section reveal">
+ <div class="section-container">
+ <p class="section-label">Background</p>
+ <h2 class="section-heading">Experience</h2>
+
+ <div class="timeline">
+
+ <div class="timeline-item">
+ <div class="timeline-marker"></div>
+ <div class="timeline-content">
+ <div class="timeline-header">
+ <span class="timeline-date">Sep 2025 – Jan 2026</span>
+ <span class="timeline-type">Work</span>
+ </div>
+ <h3>Game Programmer Intern</h3>
+ <p class="timeline-company">Xhinobi Studio · Kuala Lumpur</p>
+ <ul>
+ <li>Developed interactive software for high-traffic public exhibitions, translating creative concepts into production-ready products.</li>
+ <li>Engineered core gameplay features and UI components using Unity C#.</li>
+ <li>Optimized performance to ensure 100% stability during live exhibition events.</li>
+ </ul>
+ <div class="skill-tags">
+ <span>Unity C#</span><span>Performance Optimization</span>
+ </div>
+ </div>
+ </div>
+
+ <div class="timeline-item">
+ <div class="timeline-marker"></div>
+ <div class="timeline-content">
+ <div class="timeline-header">
+ <span class="timeline-date">Sep 2023 – Sep 2024</span>
+ <span class="timeline-type">Leadership</span>
+ </div>
+ <h3>President & Founder, Yoga Club</h3>
+ <p class="timeline-company">Xiamen University Malaysia</p>
+ <ul>
+ <li>Founded and led the Yoga Club, organizing workshops for 40+ participants with end-to-end event management.</li>
+ </ul>
+ </div>
+ </div>
+
+ <div class="timeline-item">
+ <div class="timeline-marker"></div>
+ <div class="timeline-content">
+ <div class="timeline-header">
+ <span class="timeline-date">2025</span>
+ <span class="timeline-type">Competition</span>
+ </div>
+ <h3>Game Jam 2025 — Art Team</h3>
+ <p class="timeline-company">Xhinobi Studio</p>
+ <ul>
+ <li>Designed and prototyped a playable game within a 48-hour deadline, focusing on rapid problem-solving under pressure.</li>
+ </ul>
+ <div class="skill-tags">
+ <span>Rapid Prototyping</span><span>Teamwork</span>
+ </div>
+ </div>
+ </div>
+
+ </div>
+ </div>
+ </section>
+
+ <!-- Achievements -->
+ <section id="achievements" class="section section-dark reveal">
+ <div class="section-container">
+ <p class="section-label">Recognition</p>
+ <h2 class="section-heading">Achievements</h2>
+ <div class="achievements-grid">
+ <div class="achievement-card">
+ <img src="assets/images/fyp-award.jpg" alt="Best FYP Award" loading="lazy">
+ <div class="achievement-info">
+ <span class="achievement-badge">🥇 1st Place</span>
+ <h3>Best Final Year Project</h3>
+ <p>Recognized for excellence in Interactive Media Design at Xiamen University Malaysia.</p>
+ </div>
+ </div>
+ <div class="achievement-card">
+ <img src="assets/images/award2.jpeg" alt="Achievement Award" loading="lazy">
+ <div class="achievement-info">
+ <span class="achievement-badge">🏆 Award</span>
+ <h3>Achievement Title</h3>
+ <p>Brief description of this accomplishment and its significance.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- Contact -->
+ <section id="contact" class="section reveal">
+ <div class="section-container contact-container">
+ <p class="section-label">Get in Touch</p>
+ <h2 class="section-heading">Let's create something<br><em>meaningful</em> together.</h2>
+ <div class="contact-grid">
+ <a href="mailto:wentyng65@gmail.com" class="contact-card">
+ <i class="fas fa-envelope"></i>
+ <div>
+ <p class="contact-label">Email</p>
+ <p class="contact-value">wentyng65@gmail.com</p>
+ </div>
+ <i class="fas fa-arrow-right"></i>
+ </a>
+ <div class="contact-card">
+ <i class="fas fa-location-dot"></i>
+ <div>
+ <p class="contact-label">Location</p>
+ <p class="contact-value">Melaka, Malaysia</p>
+ </div>
+ </div>
+ </div>
+ <div class="social-links">
+ <a href="https://linkedin.com/in/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+ <a href="https://github.com/wentyng0605" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+ <a href="https://www.behance.net/" target="_blank" rel="noopener" aria-label="Behance"><i class="fab fa-behance"></i></a>
+ </div>
+ </div>
+ </section>
+
+ </main>
+
+ <footer class="footer">
+ <p>&copy; 2026 Lee Wen Tyng. Designed with care.</p>
+ </footer>
+
+ <script>
+ // Scroll reveal
+ const revealElements = document.querySelectorAll('.reveal');
+ const observer = new IntersectionObserver((entries) => {
+ entries.forEach(entry => {
+ if (entry.isIntersecting) {
+ entry.target.classList.add('revealed');
+ observer.unobserve(entry.target);
+ }
+ });
+ }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+ revealElements.forEach(el => observer.observe(el));
+
+ // Header shrink on scroll
+ const header = document.getElementById('header');
+ let lastScroll = 0;
+ window.addEventListener('scroll', () => {
+ header.classList.toggle('scrolled', window.scrollY > 50);
+ }, { passive: true });
+
+ // Smooth scroll
+ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+ anchor.addEventListener('click', function(e) {
+ e.preventDefault();
+ const target = document.querySelector(this.getAttribute('href'));
+ if (target) {
+ target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+ document.querySelector('.nav-links').classList.remove('open');
+ }
+ });
+ });
+
+ // Close mobile menu on outside click
+ document.addEventListener('click', (e) => {
+ if (!e.target.closest('.navbar')) {
+ document.querySelector('.nav-links').classList.remove('open');
+ }
+ });
+ </script>
+
+</body>
+</html>
