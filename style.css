@@ -779,6 +779,7 @@ html {
   width: 100%;
   aspect-ratio: 16 / 9; /* 强制 16:9，消灭黑边 */
   background: #000;
+  width:640px;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 30px 60px rgba(0,0,0,0.12); /* 柔和的长阴影 */
